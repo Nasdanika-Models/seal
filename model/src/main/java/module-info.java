@@ -4,7 +4,7 @@ import org.nasdanika.models.seal.capability.SealEPackageResourceSetCapabilityFac
 import org.nasdanika.models.seal.capability.SealResourceContentsHandlerCapabilityFactory;
 import org.nasdanika.models.seal.capability.SealResourceFactoryCapabilityFactory;
 
-module org.nasdanika.models.seal.Seal {
+module org.nasdanika.models.seal {
 	
 	exports org.nasdanika.models.seal;
 	exports org.nasdanika.models.seal.impl;
