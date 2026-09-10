@@ -1,8 +1,5 @@
 import org.nasdanika.capability.CapabilityFactory;
-import org.nasdanika.models.seal.capability.SealArrayResourceContentsHandlerCapabilityFactory;
 import org.nasdanika.models.seal.capability.SealEPackageResourceSetCapabilityFactory;
-import org.nasdanika.models.seal.capability.SealResourceContentsHandlerCapabilityFactory;
-import org.nasdanika.models.seal.capability.SealResourceFactoryCapabilityFactory;
 
 module org.nasdanika.models.seal {
 	
@@ -15,7 +12,6 @@ module org.nasdanika.models.seal {
 	requires transitive org.nasdanika.models.iam;
 	
 	provides CapabilityFactory with 
-		SealEPackageResourceSetCapabilityFactory,
-		SealResourceFactoryCapabilityFactory;
+		SealEPackageResourceSetCapabilityFactory;
 	
 }
